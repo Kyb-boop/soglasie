@@ -1,0 +1,27 @@
+body {
+	background-color: orangered;
+}
+
+.cirkle img {
+	clip-path: circle(35%);
+	background: size 100%;
+}
+
+.poligon img {
+	clip-path: polygon(40% 25%, 34% 23%, 70% 100%, 50% 40%, 64% 70%, 83%, 23%);
+}
+
+.cirkle img {
+	clip-path: circle(35%);
+	background: size 100%;
+}
+#container {
+	column-count: 2;
+	-moz-column-count: 2;
+	-webkit-column-count: 2;
+
+	width: 200px;
+	height: 200px;
+}
+#tbl {
+}
